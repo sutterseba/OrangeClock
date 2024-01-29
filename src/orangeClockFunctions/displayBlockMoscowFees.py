@@ -178,7 +178,7 @@ def main():
                 symbolRow1 = "A"
                 blockHeight = getLastBlock()    
         except Exception as err:
-            blockHeight = "connection error"
+            blockHeight = "stack sats"
             symbolRow1 = ""
             print("Block: Handling run-time error:", err)
             debugConsoleOutput("3")
@@ -200,7 +200,7 @@ def main():
                 symbolRow2 = "H"
                 textRow2 = getMoscowTime()        
         except Exception as err:
-            textRow2 = "error"
+            textRow2 = "stay humble"
             symbolRow2 = ""
             print("Moscow: Handling run-time error:", err)
             debugConsoleOutput("4")
